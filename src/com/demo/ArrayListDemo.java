@@ -10,7 +10,9 @@ public class ArrayListDemo {
 		list.add("Saurabh");
 		list.add("Aakash");
 		
-		System.out.println(list);
+		for(String s : list) {
+			System.out.println(s);
+		}
 	}
 
 }
